@@ -1,0 +1,11 @@
+<div class="parentDiv">
+	<div>
+		<form #loginForm="ngForm" (ngSubmit)="loginUser( loginForm.value)">
+			<input type="email" name="email" placeholder="Enter User Email" ngModel>
+			<br><br>
+			<input type="password" name="password" placeholder="Enter Password" ngModel>
+			<br><br>
+			<button>login</button>
+		</form>
+	</div>
+</div>
